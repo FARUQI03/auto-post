@@ -1,0 +1,55 @@
+name: Auto Post IG & Threads
+
+on:
+  schedule:
+    - cron: "5,35 * * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Siar post id ini sekarang (kosongkan untuk jalan biasa)"
+        required: false
+      dry_run:
+        description: "Dry run (tak post betul-betul)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Siar post yang dah sampai masa
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          IG_API_HOST: ${{ vars.IG_API_HOST || 'graph.instagram.com' }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/content/images
+          ONLY: ${{ inputs.only }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          ARGS=()
+          if [ "$DRY_RUN" = "true" ]; then ARGS+=(--dry-run); fi
+          if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
+          python autopost.py "${ARGS[@]}"
+
+      - name: Simpan rekod post
+        if: always()
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "autopost-bot@users.noreply.github.com"
+          git add state/posted.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Rekod auto post" && git push)Z
