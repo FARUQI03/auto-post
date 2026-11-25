@@ -36,6 +36,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 POSTS_FILE = ROOT / "content" / "posts.json"
 STATE_FILE = ROOT / "state" / "posted.json"
+# Platform yang dihentikan sementara (post dia tak disiar sampai dibuang dari senarai ni)
+PAUSED_PLATFORMS = {"instagram"}
 
 GRAPH_VERSION = os.getenv("GRAPH_VERSION", "v23.0")
 # graph.facebook.com (Facebook Login) atau graph.instagram.com (Instagram Login)
@@ -208,6 +210,8 @@ def main():
         if not args.only and parse_time(post["publish_at"]) > now:
             continue
         for platform in post.get("platforms", ["instagram", "threads"]):
+            if platform in PAUSED_PLATFORMS:
+                continue
             key = f"{pid}:{platform}"
             if state.get(key, {}).get("media_id"):
                 continue
