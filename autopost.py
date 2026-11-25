@@ -170,7 +170,7 @@ def build_caption(post, platform):
     text = post.get(f"caption_{platform}") or post.get("caption", "")
     tags = post.get(f"hashtags_{platform}", post.get("hashtags", []))
     if platform == "threads":
-        tags = tags[:1]  # Threads hanya sokong 1 topic tag per post
+        tags = []  # Threads: tiada tag/topik langsung
     if tags:
         text = text.rstrip() + "\n\n" + " ".join(f"#{t.lstrip('#')}" for t in tags)
     return text
@@ -212,6 +212,12 @@ def main():
             if state.get(key, {}).get("media_id"):
                 continue
             label = f"[{pid} -> {platform}]"
+            missing = [i for i in post.get("images", [])
+                       if not i.startswith(("http://", "https://"))
+                       and not (ROOT / "content" / "images" / i).exists()]
+            if missing:
+                print(f"{label} MENUNGGU GAMBAR: {', '.join(missing)} (dilangkau)")
+                continue
             if args.dry_run:
                 print(f"{label} AKAN DISIAR:\n{build_caption(post, platform)}\n"
                       f"gambar: {post.get('images', [])}\n")
