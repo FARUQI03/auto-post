@@ -8,8 +8,8 @@
     "posted_at": "2026-11-25T01:22:21.316674+00:00"
   },
   "fit-01:instagram": {
-    "error": "HTTP 400 https://graph.facebook.com/v23.0/17841403764887854/media: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"code\":9004,\"type\":\"OAuthException\",\"error_subcode\":2207052,\"is_transient\":false,\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/FARUQI03/auto-post/main/content/images/fit-01.jpg.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagr",
-    "last_try": "2026-11-25T13:23:13.609511+00:00"
+    "media_id": "18431352496157024",
+    "posted_at": "2026-11-25T14:42:35.894907+00:00"
   },
   "th-02:threads": {
     "media_id": "18150097537601775",
@@ -20,11 +20,15 @@
     "posted_at": "2026-11-25T13:23:22.043514+00:00"
   },
   "fit-02:instagram": {
-    "error": "HTTP 400 https://graph.facebook.com/v23.0/17841403764887854/media: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"code\":9004,\"type\":\"OAuthException\",\"error_subcode\":2207052,\"is_transient\":false,\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/FARUQI03/auto-post/main/content/images/fit-02.jpg.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagr",
-    "last_try": "2026-11-25T13:23:23.055881+00:00"
+    "media_id": "18110860574292718",
+    "posted_at": "2026-11-25T14:42:52.187176+00:00"
   },
   "th-04:threads": {
     "media_id": "18135655354838236",
     "posted_at": "2026-11-25T13:23:31.585769+00:00"
+  },
+  "th-05:threads": {
+    "media_id": "18458360209122823",
+    "posted_at": "2026-11-25T14:42:59.963265+00:00"
   }
 }
