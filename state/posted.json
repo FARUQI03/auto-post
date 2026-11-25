@@ -6,5 +6,13 @@
   "th-01:threads": {
     "media_id": "18137220010672380",
     "posted_at": "2026-11-25T01:22:21.316674+00:00"
+  },
+  "fit-01:instagram": {
+    "error": "HTTP 400 https://graph.facebook.com/v23.0/17841403764887854/media: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"code\":9004,\"type\":\"OAuthException\",\"error_subcode\":2207052,\"is_transient\":false,\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/FARUQI03/auto-post/main/content/images/fit-01.jpg.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagr",
+    "last_try": "2026-11-25T03:30:15.779918+00:00"
+  },
+  "th-02:threads": {
+    "media_id": "18150097537601775",
+    "posted_at": "2026-11-25T03:30:22.841435+00:00"
   }
 }
