@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: autopost
@@ -41,6 +42,7 @@ jobs:
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/content/images
           ONLY: ${{ inputs.only }}
           DRY_RUN: ${{ inputs.dry_run }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "autopost-bot"
           git config user.email "autopost-bot@users.noreply.github.com"
@@ -64,3 +66,5 @@ jobs:
             [ $(date +%s) -ge $END ] && break
             sleep 240
           done
+          # Sambung sendiri: start run baru supaya tak bergantung pada cron GitHub
+          gh workflow run autopost.yml --ref "${GITHUB_REF_NAME}" || echo "Gagal start run seterusnya, tunggu cron"
