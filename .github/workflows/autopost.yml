@@ -30,7 +30,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Siar post yang dah sampai masa
+      - name: Siar post (loop ~5.5 jam supaya tak bergantung pada cron GitHub yang lambat)
+        timeout-minutes: 345
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -41,15 +42,25 @@ jobs:
           ONLY: ${{ inputs.only }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
+          git config user.name "autopost-bot"
+          git config user.email "autopost-bot@users.noreply.github.com"
           ARGS=()
           if [ "$DRY_RUN" = "true" ]; then ARGS+=(--dry-run); fi
           if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
-          python autopost.py "${ARGS[@]}"
-
-      - name: Simpan rekod post
-        if: always()
-        run: |
-          git config user.name "autopost-bot"
-          git config user.email "autopost-bot@users.noreply.github.com"
-          git add state/posted.json 2>/dev/null || true
-          if ! git diff --cached --quiet; then git commit -m "Rekod auto post"; git push; fi
+          save_state() {
+            git add state/posted.json 2>/dev/null || true
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Rekod auto post"
+              for i in 1 2 3; do git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q && break; sleep 5; done
+            fi
+          }
+          # Sekali jalan sahaja kalau dry run atau --only
+          if [ ${#ARGS[@]} -gt 0 ]; then python autopost.py "${ARGS[@]}" || true; save_state; exit 0; fi
+          END=$(( $(date +%s) + 330*60 ))
+          while :; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+            python autopost.py || echo "Ada post gagal (lihat log di atas)"
+            save_state
+            [ $(date +%s) -ge $END ] && break
+            sleep 240
+          done
