@@ -17,6 +17,11 @@ Environment variables (letak dalam GitHub Secrets):
   THREADS_ACCESS_TOKEN  Long-lived token Threads API
   IMAGE_BASE_URL      (pilihan) URL awam untuk folder content/images,
                       cth https://raw.githubusercontent.com/<user>/<repo>/main/content/images
+  THREADS_VITALIQ_ACCESS_TOKEN  Token Threads akaun kedua (Vitaliq).
+  THREADS_VITALIQ_USER_ID       (pilihan) ID akaun Threads Vitaliq, default "me".
+
+Akaun kedua (Vitaliq) ada fail sendiri: content/vitaliq/posts.json,
+content/vitaliq/info.json (harga, link order) dan content/vitaliq/images/.
 
 Guna:
   python autopost.py            # siar post yang dah sampai masa
@@ -44,6 +49,24 @@ GRAPH_VERSION = os.getenv("GRAPH_VERSION", "v23.0")
 IG_API_HOST = os.getenv("IG_API_HOST", "graph.facebook.com")
 FB_GRAPH = f"https://{IG_API_HOST}/{GRAPH_VERSION}"
 THREADS_GRAPH = "https://graph.threads.net/v1.0"
+
+# Akaun Threads tambahan. Setiap satu ada fail post, gambar dan token sendiri.
+VITALIQ_DIR = ROOT / "content" / "vitaliq"
+EXTRA_ACCOUNTS = [
+    {
+        "name": "vitaliq",
+        "posts": VITALIQ_DIR / "posts.json",
+        "info": VITALIQ_DIR / "info.json",
+        "images_dir": VITALIQ_DIR / "images",
+        "images_url_path": "content/vitaliq/images",
+        "token_env": "THREADS_VITALIQ_ACCESS_TOKEN",
+        "user_env": "THREADS_VITALIQ_USER_ID",
+        # Gambar tak ada lagi? Post teks sahaja supaya jadual tak tersangkut.
+        "image_optional": True,
+        # Post yang terlepas lebih dari ni (jam) tak disiar, supaya tak keluar serentak.
+        "max_late_hours": 6,
+    },
+]
 
 THREADS_MAX_CHARS = 500
 IG_MAX_CHARS = 2200
@@ -115,11 +138,11 @@ def post_instagram(post):
 
 
 # ---------------------------------------------------------------- Threads
-def post_threads(post):
-    user_id = os.environ["THREADS_USER_ID"]
-    token = os.environ["THREADS_ACCESS_TOKEN"]
-    images = post_images(post)
-    text = build_caption(post, "threads")
+def post_threads(post, user_id=None, token=None, image_base=None, text=None):
+    user_id = user_id or os.environ["THREADS_USER_ID"]
+    token = token or os.environ["THREADS_ACCESS_TOKEN"]
+    images = post_images(post, image_base)
+    text = text if text is not None else build_caption(post, "threads")
     if len(text) > THREADS_MAX_CHARS:
         raise RuntimeError(f"Teks Threads {len(text)} aksara, had {THREADS_MAX_CHARS}.")
 
@@ -154,8 +177,15 @@ def post_threads(post):
 
 
 # ---------------------------------------------------------------- Helpers
-def post_images(post):
+def raw_base_url():
+    """URL awam root repo (tanpa /content/images)."""
     base = os.getenv("IMAGE_BASE_URL", "").rstrip("/")
+    suffix = "/content/images"
+    return base[: -len(suffix)] if base.endswith(suffix) else ""
+
+
+def post_images(post, base=None):
+    base = (base if base is not None else os.getenv("IMAGE_BASE_URL", "")).rstrip("/")
     out = []
     for img in post.get("images", []):
         if img.startswith("http://") or img.startswith("https://"):
@@ -190,6 +220,82 @@ def load_json(path, default):
 
 
 PUBLISHERS = {"instagram": post_instagram, "threads": post_threads}
+
+
+def fill_info(text, info):
+    """Ganti {HARGA}, {LINK_ORDER} dll. Pulangkan (teks, senarai info yang belum diisi)."""
+    missing = []
+    for key, val in info.items():
+        tag = "{" + key + "}"
+        if tag in text:
+            if str(val).strip():
+                text = text.replace(tag, str(val).strip())
+            else:
+                missing.append(key)
+    return text, missing
+
+
+def save_state(state):
+    STATE_FILE.parent.mkdir(exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def run_extra_account(acc, state, now, args):
+    """Siar post akaun Threads tambahan (cth Vitaliq). Pulangkan bilangan gagal."""
+    name = acc["name"]
+    token = os.getenv(acc["token_env"], "").strip()
+    if not token:
+        print(f"[{name}] token {acc['token_env']} belum diset, akaun ini dilangkau.")
+        return 0
+    user_id = os.getenv(acc["user_env"], "").strip() or "me"
+    posts = load_json(acc["posts"], [])
+    info = {k: v for k, v in load_json(acc["info"], {}).items() if not k.startswith("_")}
+    base = raw_base_url()
+    image_base = f"{base}/{acc['images_url_path']}" if base else ""
+    failures = 0
+
+    for post in posts:
+        pid = post["id"]
+        if args.only and pid != args.only:
+            continue
+        key = f"{name}:{pid}:threads"
+        if state.get(key, {}).get("media_id"):
+            continue
+        if not args.only:
+            due = parse_time(post["publish_at"])
+            if due > now:
+                continue
+            if (now - due).total_seconds() > acc["max_late_hours"] * 3600:
+                continue  # terlepas, tak siar supaya tak bertimbun
+        label = f"[{name} {pid}]"
+        text, missing_info = fill_info(build_caption(post, "threads"), info)
+        if missing_info:
+            print(f"{label} MENUNGGU INFO dalam info.json: {', '.join(missing_info)} (dilangkau)")
+            continue
+        post = dict(post)
+        have = [i for i in post.get("images", [])
+                if i.startswith(("http://", "https://")) or (acc["images_dir"] / i).exists()]
+        if len(have) != len(post.get("images", [])):
+            if not acc["image_optional"]:
+                print(f"{label} MENUNGGU GAMBAR (dilangkau)")
+                continue
+            print(f"{label} gambar belum ada, siar teks sahaja")
+        post["images"] = have
+        if args.dry_run:
+            print(f"{label} AKAN DISIAR:\n{text}\ngambar: {have}\n")
+            continue
+        try:
+            media_id = post_threads(post, user_id, token, image_base, text)
+            state[key] = {"media_id": media_id,
+                          "posted_at": datetime.now(timezone.utc).isoformat()}
+            print(f"{label} BERJAYA, media id {media_id}")
+        except Exception as e:  # noqa: BLE001
+            failures += 1
+            state[key] = {"error": str(e)[:500],
+                          "last_try": datetime.now(timezone.utc).isoformat()}
+            print(f"{label} GAGAL: {e}", file=sys.stderr)
+        save_state(state)
+    return failures
 
 
 def main():
@@ -236,9 +342,10 @@ def main():
                 state[key] = {"error": str(e)[:500],
                               "last_try": datetime.now(timezone.utc).isoformat()}
                 print(f"{label} GAGAL: {e}", file=sys.stderr)
-            STATE_FILE.parent.mkdir(exist_ok=True)
-            STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False),
-                                  encoding="utf-8")
+            save_state(state)
+
+    for acc in EXTRA_ACCOUNTS:
+        failures += run_extra_account(acc, state, now, args)
 
     if failures:
         sys.exit(1)

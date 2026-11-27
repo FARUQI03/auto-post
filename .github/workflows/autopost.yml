@@ -38,6 +38,8 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_VITALIQ_USER_ID: ${{ secrets.THREADS_VITALIQ_USER_ID }}
+          THREADS_VITALIQ_ACCESS_TOKEN: ${{ secrets.THREADS_VITALIQ_ACCESS_TOKEN }}
           IG_API_HOST: ${{ vars.IG_API_HOST || 'graph.instagram.com' }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/content/images
           ONLY: ${{ inputs.only }}
