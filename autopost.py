@@ -19,9 +19,12 @@ Environment variables (letak dalam GitHub Secrets):
                       cth https://raw.githubusercontent.com/<user>/<repo>/main/content/images
   THREADS_VITALIQ_ACCESS_TOKEN  Token Threads akaun kedua (Vitaliq).
   THREADS_VITALIQ_USER_ID       (pilihan) ID akaun Threads Vitaliq, default "me".
+  THREADS_FARZ_ACCESS_TOKEN     Token Threads akaun ketiga (@farzglobal).
+  THREADS_FARZ_USER_ID          (pilihan) ID akaun Threads FARZ, default "me".
 
 Akaun kedua (Vitaliq) ada fail sendiri: content/vitaliq/posts.json,
 content/vitaliq/info.json (harga, link order) dan content/vitaliq/images/.
+Akaun FARZ (@farzglobal) sama: content/farz/posts.json, info.json, images/.
 
 Guna:
   python autopost.py            # siar post yang dah sampai masa
@@ -64,6 +67,17 @@ EXTRA_ACCOUNTS = [
         # Gambar tak ada lagi? Post teks sahaja supaya jadual tak tersangkut.
         "image_optional": True,
         # Post yang terlepas lebih dari ni (jam) tak disiar, supaya tak keluar serentak.
+        "max_late_hours": 6,
+    },
+    {
+        "name": "farz",
+        "posts": ROOT / "content" / "farz" / "posts.json",
+        "info": ROOT / "content" / "farz" / "info.json",
+        "images_dir": ROOT / "content" / "farz" / "images",
+        "images_url_path": "content/farz/images",
+        "token_env": "THREADS_FARZ_ACCESS_TOKEN",
+        "user_env": "THREADS_FARZ_USER_ID",
+        "image_optional": True,
         "max_late_hours": 6,
     },
 ]

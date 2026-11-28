@@ -4,7 +4,7 @@ Panjangkan (refresh) long-lived token sebelum tamat 60 hari.
 Jalankan sebulan sekali, kemudian salin token baru ke GitHub Secrets.
 
   IG_ACCESS_TOKEN=... FB_APP_ID=... FB_APP_SECRET=... \
-  THREADS_ACCESS_TOKEN=... THREADS_VITALIQ_ACCESS_TOKEN=... python refresh_tokens.py
+  THREADS_ACCESS_TOKEN=... THREADS_VITALIQ_ACCESS_TOKEN=... THREADS_FARZ_ACCESS_TOKEN=... python refresh_tokens.py
 """
 import json
 import os
@@ -28,7 +28,7 @@ if os.getenv("IG_ACCESS_TOKEN") and os.getenv("FB_APP_ID") and os.getenv("FB_APP
     })
     print("IG_ACCESS_TOKEN baru:\n", r["access_token"], "\n")
 
-for name in ("THREADS_ACCESS_TOKEN", "THREADS_VITALIQ_ACCESS_TOKEN"):
+for name in ("THREADS_ACCESS_TOKEN", "THREADS_VITALIQ_ACCESS_TOKEN", "THREADS_FARZ_ACCESS_TOKEN"):
     if os.getenv(name):
         r = get("https://graph.threads.net/refresh_access_token", {
             "grant_type": "th_refresh_token",
