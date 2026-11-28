@@ -15,15 +15,9 @@
       "threads"
     ],
     "images": [
-      "fz-0b.jpg"
+      "farz-bts-1.jpg"
     ],
-    "caption": "Malang Sabtu, cuti lagi 🙌\n\nKite nok kenal mung gok. Mung dari mane? Ganu ke luar Ganu? Komen negeri mung 👇",
-    "card": {
-      "kind": "teaser",
-      "kicker": "",
-      "title": "Kite doh\nmari.",
-      "sub": "FARZ®  ·  Everyday essentials"
-    }
+    "caption": "Malang Sabtu, kite nok tunjuk sikit 👀\n\nNi bukang kaing buang. Ni panel baju FARZ sebelum dijahit. Setiap keping kite ukur dulu, satu-satu, sebelum jadi baju.\n\nTeka sikit, asap putih ning nok jadi mende? 👇"
   },
   {
     "id": "fz-0c",
@@ -151,8 +145,10 @@
     "platforms": [
       "threads"
     ],
-    "images": [],
-    "caption": "Ade sorang tanye, bakpe nok buwak brand baju sendiri? Pasar doh penuh.\n\nJawapang kite senang: sebab kite penat beli baju hok lawa dalang gambar je. Pakai dua tige kali, doh lain macang.\n\nJadi kite buwak sendiri. Baju hok kite sendiri sanggup pakai sokmo."
+    "images": [
+      "farz-bts-2.jpg"
+    ],
+    "caption": "Ade orang tanye bakpe kite buwak brand baju sendiri.\n\nGambar ning jawapang die. Kite nok tengok sendiri setiap panel, depang, belakang, lengang, sebelum masuk mesin jahit. Dok nok main lepah je.\n\nNampak dok logo FARZ kak tengah tu? 👀"
   },
   {
     "id": "fz-10",
@@ -355,19 +351,9 @@
       "threads"
     ],
     "images": [
-      "fz-24.jpg"
+      "farz-tee-depan.jpg"
     ],
-    "caption": "3 bende hok kite pegang mase buwak FARZ:\n\n1. Selesa dulu, baru gaye\n2. Simple tapi kemas\n3. Tahang pakai hari-hari\n\nTu je. Dok payoh susoh-susoh.",
-    "card": {
-      "kind": "list",
-      "kicker": "CARE KITE",
-      "title": "3 bende hok kite pegang",
-      "items": [
-        "Selesa dulu, baru gaye",
-        "Simple tapi kemas",
-        "Tahang pakai hari-hari"
-      ]
-    }
+    "caption": "Ok. Ni hok mung tunggu.\n\nKaing hok mung nampak minggu lepah, doh jadi ning 🔥\n\nAsap putih kak badang hitang. Depang simple, FARZ kak dade.\n\nRate 1 sampai 10. Jujur."
   },
   {
     "id": "fz-25",
@@ -394,19 +380,9 @@
       "threads"
     ],
     "images": [
-      "fz-27.jpg"
+      "farz-tee-belakang.jpg"
     ],
-    "caption": "Satu tshirt plain, 3 care pakai:\n\n1. Ngan seluar track, lepak hujung minggu\n2. Ngan chino, jumpe client\n3. Baroh overshirt, keluar malang\n\nBaju hok betul tu hok buleh ikut mung gi mane-mane. Mung sokmo combo gane?",
-    "card": {
-      "kind": "steps",
-      "kicker": "1 TSHIRT, 3 CARE",
-      "title": "Satu tshirt plain, 3 care pakai",
-      "items": [
-        "+ Seluar track: lepak hujung minggu",
-        "+ Chino: jumpe client",
-        "+ Overshirt: keluar malang"
-      ]
-    }
+    "caption": "Semalang depang. Hari ning belakang 👀\n\nAsap die naik dari baroh sampai ke bahu. Mase mung pakai, orang kak belakang mung pung dapak tengok.\n\nMung suke depang ke belakang lagi?"
   },
   {
     "id": "fz-28",
@@ -554,14 +530,12 @@
       "threads"
     ],
     "images": [
-      "fz-39.jpg"
+      "farz-bts-1.jpg",
+      "farz-bts-2.jpg",
+      "farz-tee-depan.jpg",
+      "farz-tee-belakang.jpg"
     ],
-    "caption": "Kite dok nok jadi brand hok mung beli sekali sebab hype, lepah tu lupe.\n\nKite nok jadi baju hok mung capai lagi, lagi, dan lagi. Tu je cita-cita FARZ.",
-    "card": {
-      "kind": "quote",
-      "kicker": "FARZ®",
-      "title": "Bukang baju hype. Baju hok mung capai lagi dan lagi."
-    }
+    "caption": "Dari kaing ke baju. Empat gambar 🧵\n\n1. Panel diukur satu-satu\n2. Depang, belakang, lengang\n3. Depang siap\n4. Belakang siap\n\nKomen 'NOK' kalu mung nok tau dulu bile die keluar 👇"
   },
   {
     "id": "fz-40",
