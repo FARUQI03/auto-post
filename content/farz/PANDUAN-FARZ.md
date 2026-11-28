@@ -6,8 +6,8 @@ Akaun @farzglobal guna sistem yang sama dengan akaun Threads lain, tapi fail dan
 
 | Fail | Fungsi |
 |---|---|
-| `content/farz/posts.json` | 35 post, 5 sehari (7:30 pg, 11:30 pg, 3:00 ptg, 8:00 mlm, 10:30 mlm), 29 Nov hingga 5 Dis, loghat Terengganu |
-| `content/farz/images/` | 16 gambar kad FARZ (merah, hitam, putih), selang-seli dengan post teks |
+| `content/farz/posts.json` | 5 post sehari (7:30 pg, 11:30 pg, 3:00 ptg, 8:00 mlm, 10:30 mlm), mula 28 Nov 2026, loghat Terengganu. Claude tamboh konten baru tiap minggu (tanpa had). |
+| `content/farz/images/` | Gambar kad FARZ (merah, hitam, putih), dijana dari medan `card` dalam posts.json oleh `tools/farz_cards.py` |
 | `content/farz/info.json` | Tempat isi info nanti (tarikh launch, link kedai) |
 
 Konten: loghat Terengganu. Promote brand FARZ (cerita brand, tanya warna/saiz/fit, teaser first drop) campur post random untuk tarik perhatian (sarapang, keropok lekor, musim tengkujuh, cuti Jumaat orang Ganu, tempat lepak). Tiada hashtag. Tiada harga, bahan kain atau tarikh launch direka, sebab belum confirm.

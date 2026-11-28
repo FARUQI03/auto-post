@@ -1,5 +1,40 @@
 [
   {
+    "id": "fz-0a",
+    "publish_at": "2026-11-28T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Assalamualaikum geng Threads 👋\n\nAkaun ning FARZ, brand baju kite sendiri. Mule hari ning kite akan sokmo borak kak sini: pasal baju, pasal Ganu, pasal hidup.\n\nKalu mung baru jumpe kite, komen 'hadir' 😂"
+  },
+  {
+    "id": "fz-0b",
+    "publish_at": "2026-11-28T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-0b.jpg"
+    ],
+    "caption": "Malang Sabtu, cuti lagi 🙌\n\nKite nok kenal mung gok. Mung dari mane? Ganu ke luar Ganu? Komen negeri mung 👇",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Kite doh\nmari.",
+      "sub": "FARZ®  ·  Everyday essentials"
+    }
+  },
+  {
+    "id": "fz-0c",
+    "publish_at": "2026-11-28T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Soalang pertame kite malang ning: mung tido pukul berape sokmo? 😂\n\nHok jawab lepah pukul 2, kite tau mung sape."
+  },
+  {
     "id": "fz-01",
     "publish_at": "2026-11-29T07:30:00+08:00",
     "platforms": [
@@ -17,7 +52,13 @@
     "images": [
       "fz-02.jpg"
     ],
-    "caption": "Kenal dulu sikit.\n\nFARZ ning brand baju kite sendiri. Everyday essentials. Baju hok mung buleh pakai hari-hari, selesa, tapi nampak kemas.\n\nDok lame lagi kite launch. Follow dulu, kekgi jange kabo dok tau 👀"
+    "caption": "Kenal dulu sikit.\n\nFARZ ning brand baju kite sendiri. Everyday essentials. Baju hok mung buleh pakai hari-hari, selesa, tapi nampak kemas.\n\nDok lame lagi kite launch. Follow dulu, kekgi jange kabo dok tau 👀",
+    "card": {
+      "kind": "statement",
+      "kicker": "FARZ®",
+      "title": "Baju hok\nmung pakai\nsokmo.",
+      "sub": "Everyday essentials. Coming soon."
+    }
   },
   {
     "id": "fz-03",
@@ -37,7 +78,17 @@
     "images": [
       "fz-04.jpg"
     ],
-    "caption": "3 bende hok wak baju murah jadi mahal:\n\n1. Leher kembang lepah basuh 3 kali\n2. Kaing nipih sampai nampak bayang\n3. Ketak kak bahu, longgor kak perut\n\nMane satu hok mung paling benci? Aku nombor 1 😤"
+    "caption": "3 bende hok wak baju murah jadi mahal:\n\n1. Leher kembang lepah basuh 3 kali\n2. Kaing nipih sampai nampak bayang\n3. Ketak kak bahu, longgor kak perut\n\nMane satu hok mung paling benci? Aku nombor 1 😤",
+    "card": {
+      "kind": "list",
+      "kicker": "CAKAP BETUL",
+      "title": "3 bende hok wak baju murah jadi mahal",
+      "items": [
+        "Leher kembang lepah basuh 3 kali",
+        "Kaing nipih sampai nampak bayang",
+        "Ketak kak bahu, longgor kak perut"
+      ]
+    }
   },
   {
     "id": "fz-05",
@@ -57,7 +108,12 @@
     "images": [
       "fz-06.jpg"
     ],
-    "caption": "Isnin doh mari. Semangat sikit geng 💪\n\nTips kecik: pakai baju hok selesa. Bile badang selesa, kerje pung rase ringang sikit.\n\nNi bukang teori, ni pengalamang 😂"
+    "caption": "Isnin doh mari. Semangat sikit geng 💪\n\nTips kecik: pakai baju hok selesa. Bile badang selesa, kerje pung rase ringang sikit.\n\nNi bukang teori, ni pengalamang 😂",
+    "card": {
+      "kind": "quote",
+      "kicker": "ISNIN",
+      "title": "Pakai baju selesa. Kerje pung rase ringang sikit."
+    }
   },
   {
     "id": "fz-07",
@@ -77,7 +133,17 @@
     "images": [
       "fz-08.jpg"
     ],
-    "caption": "Ganu doh masuk musim tengkujuh. Pagi panah, petang hujang lebak ☔\n\nKawasang mung skang gane? Selamak ke dok?"
+    "caption": "Ganu doh masuk musim tengkujuh. Pagi panah, petang hujang lebak ☔\n\nKawasang mung skang gane? Selamak ke dok?",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUSIM TENGKUJUH",
+      "title": "Cuace kak tempak mung skang?",
+      "items": [
+        "Hujang lebak",
+        "Panah terik",
+        "Kejap panah, kejap hujang"
+      ]
+    }
   },
   {
     "id": "fz-09",
@@ -97,7 +163,12 @@
     "images": [
       "fz-10.jpg"
     ],
-    "caption": "Hot take malang Isnin:\n\nBaju murah sokmo jadi mahal bile mung kene beli baru tiap 3 bulang.\n\nSetuju ke dok? 👇"
+    "caption": "Hot take malang Isnin:\n\nBaju murah sokmo jadi mahal bile mung kene beli baru tiap 3 bulang.\n\nSetuju ke dok? 👇",
+    "card": {
+      "kind": "quote",
+      "kicker": "HOT TAKE",
+      "title": "Baju murah sokmo jadi mahal bile mung kene beli baru tiap 3 bulang."
+    }
   },
   {
     "id": "fz-11",
@@ -117,7 +188,19 @@
     "images": [
       "fz-12.jpg"
     ],
-    "caption": "Orang nampak gambar baju lawa je.\n\nHok orang jarang nampak: pileh kaing, cube pakai, basuh, tengok balik, ubah cutting, ulang sampai puas hati.\n\nBuwak baju ning rupe-rupenye banyok 'ulang' dari 'siap' 😅"
+    "caption": "Orang nampak gambar baju lawa je.\n\nHok orang jarang nampak: pileh kaing, cube pakai, basuh, tengok balik, ubah cutting, ulang sampai puas hati.\n\nBuwak baju ning rupe-rupenye banyok 'ulang' dari 'siap' 😅",
+    "card": {
+      "kind": "steps",
+      "kicker": "BELAKANG TABIR",
+      "title": "Proses hok orang jarang nampak",
+      "items": [
+        "Pileh kaing",
+        "Cube pakai",
+        "Basuh. Tengok balik.",
+        "Ubah cutting",
+        "Ulang sampai puas hati"
+      ]
+    }
   },
   {
     "id": "fz-13",
@@ -137,7 +220,16 @@
     "images": [
       "fz-14.jpg"
     ],
-    "caption": "Debat malang ning.\n\nOversized ke regular fit?\n\nKalu oversized, longgor macang mane mung buleh terima? Jange sampai nampak macang pinjang baju abang 😂"
+    "caption": "Debat malang ning.\n\nOversized ke regular fit?\n\nKalu oversized, longgor macang mane mung buleh terima? Jange sampai nampak macang pinjang baju abang 😂",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Oversized ke regular fit?",
+      "items": [
+        "Oversized",
+        "Regular fit"
+      ]
+    }
   },
   {
     "id": "fz-15",
@@ -157,7 +249,13 @@
     "images": [
       "fz-16.jpg"
     ],
-    "caption": "Selamak pagi ☀️\n\nRabu doh, separuh minggu lepah.\n\nPakai mende hari ning? Tshirt, kemeje, uniform, ke kaing pelikat lagi depang laptop? 😂"
+    "caption": "Selamak pagi ☀️\n\nRabu doh, separuh minggu lepah.\n\nPakai mende hari ning? Tshirt, kemeje, uniform, ke kaing pelikat lagi depang laptop? 😂",
+    "card": {
+      "kind": "statement",
+      "kicker": "RABU",
+      "title": "Selamak\npagi.",
+      "sub": "Separuh minggu doh lepah. Sikit lagi."
+    }
   },
   {
     "id": "fz-17",
@@ -177,7 +275,12 @@
     "images": [
       "fz-18.jpg"
     ],
-    "caption": "Mende sebenor maksud 'premium'?\n\nBagi kite, premium bukang logo besor kak dade. Premium tu bile mung capai baju hok same, minggu demi minggu, sebab die memang selesa.\n\nPremium bagi mung mende?"
+    "caption": "Mende sebenor maksud 'premium'?\n\nBagi kite, premium bukang logo besor kak dade. Premium tu bile mung capai baju hok same, minggu demi minggu, sebab die memang selesa.\n\nPremium bagi mung mende?",
+    "card": {
+      "kind": "quote",
+      "kicker": "PREMIUM, KATE KITE",
+      "title": "Premium bukang logo besor. Premium tu baju hok mung capai minggu demi minggu."
+    }
   },
   {
     "id": "fz-19",
@@ -197,7 +300,18 @@
     "images": [
       "fz-20.jpg"
     ],
-    "caption": "Checklist baju everyday hok betul:\n\n✔ Dok panah dalang cuace Malaysia\n✔ Dok berkedut teruk lepah duduk lame\n✔ Leher kekal bentuk lepah basuh\n✔ Santai buleh, kemas pung buleh\n\nBaju dalang almari mung lepah berape? 👀"
+    "caption": "Checklist baju everyday hok betul:\n\n✔ Dok panah dalang cuace Malaysia\n✔ Dok berkedut teruk lepah duduk lame\n✔ Leher kekal bentuk lepah basuh\n✔ Santai buleh, kemas pung buleh\n\nBaju dalang almari mung lepah berape? 👀",
+    "card": {
+      "kind": "check",
+      "kicker": "CHECKLIST",
+      "title": "Baju everyday hok betul",
+      "items": [
+        "Dok panah cuace Malaysia",
+        "Dok berkedut teruk",
+        "Leher kekal bentuk",
+        "Santai buleh, kemas pung buleh"
+      ]
+    }
   },
   {
     "id": "fz-21",
@@ -217,7 +331,13 @@
     "images": [
       "fz-22.jpg"
     ],
-    "caption": "Dok lame doh.\n\nHok follow dari awal, mung orang pertame tau bile first drop FARZ keluar.\n\nTekan notification 🔔 supaye dok terlepah."
+    "caption": "Dok lame doh.\n\nHok follow dari awal, mung orang pertame tau bile first drop FARZ keluar.\n\nTekan notification 🔔 supaye dok terlepah.",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Ade bende\nnok mari.",
+      "sub": "FARZ®  ·  First drop"
+    }
   },
   {
     "id": "fz-23",
@@ -237,7 +357,17 @@
     "images": [
       "fz-24.jpg"
     ],
-    "caption": "3 bende hok kite pegang mase buwak FARZ:\n\n1. Selesa dulu, baru gaye\n2. Simple tapi kemas\n3. Tahang pakai hari-hari\n\nTu je. Dok payoh susoh-susoh."
+    "caption": "3 bende hok kite pegang mase buwak FARZ:\n\n1. Selesa dulu, baru gaye\n2. Simple tapi kemas\n3. Tahang pakai hari-hari\n\nTu je. Dok payoh susoh-susoh.",
+    "card": {
+      "kind": "list",
+      "kicker": "CARE KITE",
+      "title": "3 bende hok kite pegang",
+      "items": [
+        "Selesa dulu, baru gaye",
+        "Simple tapi kemas",
+        "Tahang pakai hari-hari"
+      ]
+    }
   },
   {
     "id": "fz-25",
@@ -266,7 +396,17 @@
     "images": [
       "fz-27.jpg"
     ],
-    "caption": "Satu tshirt plain, 3 care pakai:\n\n1. Ngan seluar track, lepak hujung minggu\n2. Ngan chino, jumpe client\n3. Baroh overshirt, keluar malang\n\nBaju hok betul tu hok buleh ikut mung gi mane-mane. Mung sokmo combo gane?"
+    "caption": "Satu tshirt plain, 3 care pakai:\n\n1. Ngan seluar track, lepak hujung minggu\n2. Ngan chino, jumpe client\n3. Baroh overshirt, keluar malang\n\nBaju hok betul tu hok buleh ikut mung gi mane-mane. Mung sokmo combo gane?",
+    "card": {
+      "kind": "steps",
+      "kicker": "1 TSHIRT, 3 CARE",
+      "title": "Satu tshirt plain, 3 care pakai",
+      "items": [
+        "+ Seluar track: lepak hujung minggu",
+        "+ Chino: jumpe client",
+        "+ Overshirt: keluar malang"
+      ]
+    }
   },
   {
     "id": "fz-28",
@@ -286,7 +426,17 @@
     "images": [
       "fz-29.jpg"
     ],
-    "caption": "Ganu panah, tapi musim hujang malang-malang sejuk gok.\n\nMung team hoodie ke tshirt? Kalu FARZ buwak dua-dua, mung amik hok mane dulu?"
+    "caption": "Ganu panah, tapi musim hujang malang-malang sejuk gok.\n\nMung team hoodie ke tshirt? Kalu FARZ buwak dua-dua, mung amik hok mane dulu?",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Hoodie ke tshirt?",
+      "items": [
+        "Hoodie",
+        "Tshirt",
+        "Dua-dua, jange tanye"
+      ]
+    }
   },
   {
     "id": "fz-30",
@@ -315,7 +465,12 @@
     "images": [
       "fz-32.jpg"
     ],
-    "caption": "Kalu baju tu dok selesa nok gi pasar, lepak kedai kopi, amik anok, tu bukang everyday wear. Tu baju photoshoot.\n\nFARZ dibuwak untuk hari biase mung. Sebab hari biase la hok paling banyok dalang hidup kite."
+    "caption": "Kalu baju tu dok selesa nok gi pasar, lepak kedai kopi, amik anok, tu bukang everyday wear. Tu baju photoshoot.\n\nFARZ dibuwak untuk hari biase mung. Sebab hari biase la hok paling banyok dalang hidup kite.",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Hari biase la hok paling banyok dalang hidup kite."
+    }
   },
   {
     "id": "fz-33",
@@ -335,7 +490,13 @@
     "images": [
       "fz-34.jpg"
     ],
-    "caption": "Seminggu doh kite borak ngan mung. Terime kasih hok follow dari awal 🤝\n\nKalu buleh request satu bende untuk first drop, mung nok mende?\n\nHok paling rame mintak, kite amik serius."
+    "caption": "Seminggu doh kite borak ngan mung. Terime kasih hok follow dari awal 🤝\n\nKalu buleh request satu bende untuk first drop, mung nok mende?\n\nHok paling rame mintak, kite amik serius.",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Terime kasih\nhok follow\nawal.",
+      "sub": "FARZ®  ·  First drop, dok lame doh"
+    }
   },
   {
     "id": "fz-35",
@@ -345,5 +506,1523 @@
     ],
     "images": [],
     "caption": "Esok Ahad, orang Ganu doh kerje balik 😂\n\nMung ready ke dok? Satu perkataang untuk minggu depang."
+  },
+  {
+    "id": "fz-36",
+    "publish_at": "2026-12-06T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Ahad pagi, orang Ganu doh masuk kerje balik 😂\n\nSape hok rase badang ade kak ofis tapi jiwe masih kak rumoh? Angkat tangan 🙋"
+  },
+  {
+    "id": "fz-37",
+    "publish_at": "2026-12-06T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-37.jpg"
+    ],
+    "caption": "Tips jage tshirt supaye tahang lame:\n\n1. Basuh terbalik\n2. Air sejuk, jange panah\n3. Jemur kak tempak teduh\n4. Jange perah kuat-kuat\n\nBaju molek pung, kalu jage dok betul, cepak gok rosok.",
+    "card": {
+      "kind": "list",
+      "kicker": "TIPS",
+      "title": "Jage tshirt supaye tahang lame",
+      "items": [
+        "Basuh terbalik",
+        "Air sejuk, jange panah",
+        "Jemur kak tempak teduh",
+        "Jange perah kuat-kuat"
+      ]
+    }
+  },
+  {
+    "id": "fz-38",
+    "publish_at": "2026-12-06T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Teh tarik ke kopi O?\n\nPileh satu je. Ni menentukang masa depang kite 😂"
+  },
+  {
+    "id": "fz-39",
+    "publish_at": "2026-12-06T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-39.jpg"
+    ],
+    "caption": "Kite dok nok jadi brand hok mung beli sekali sebab hype, lepah tu lupe.\n\nKite nok jadi baju hok mung capai lagi, lagi, dan lagi. Tu je cita-cita FARZ.",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Bukang baju hype. Baju hok mung capai lagi dan lagi."
+    }
+  },
+  {
+    "id": "fz-40",
+    "publish_at": "2026-12-06T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Ahad. Esok Isnin, hok negeri lain baru nok start, kite doh hari kedue 😂\n\nTido la, jange skrol lame sangat."
+  },
+  {
+    "id": "fz-41",
+    "publish_at": "2026-12-07T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Isnin pagi. Hujang ke panah kak tempak mung? ☔☀️\n\nMusim tengkujuh ning, hok kawasang rendoh, jage diri molek-molek."
+  },
+  {
+    "id": "fz-42",
+    "publish_at": "2026-12-07T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-42.jpg"
+    ],
+    "caption": "Logo kecik kak dade, ke logo besor kak belakang?\n\nTolong kite pileh. Kite nok buwak hok mung betul-betul suke pakai.",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Logo kecik ke logo besor?",
+      "items": [
+        "Kecik kak dade",
+        "Besor kak belakang",
+        "Takdok logo langsung"
+      ]
+    }
+  },
+  {
+    "id": "fz-43",
+    "publish_at": "2026-12-07T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Mende hok mung paling rindu mase sekolah dulu?\n\nAku rindu waktu rehat 20 minit hok rase macang 2 jam 😂"
+  },
+  {
+    "id": "fz-44",
+    "publish_at": "2026-12-07T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-44.jpg"
+    ],
+    "caption": "Cara nok tau saiz mung tanpa cube:\n\n1. Amik tshirt hok paling mung selesa\n2. Bentang atah lantai\n3. Ukur lebar dade, ketiak ke ketiak\n4. Ukur panjang, bahu ke baroh\n\nBanding ngan size chart. Senang, dok payoh teka.",
+    "card": {
+      "kind": "steps",
+      "kicker": "TIPS SAIZ",
+      "title": "Tau saiz mung tanpa cube",
+      "items": [
+        "Amik tshirt paling selesa",
+        "Bentang atah lantai",
+        "Ukur dade, ketiak ke ketiak",
+        "Ukur panjang, bahu ke baroh"
+      ]
+    }
+  },
+  {
+    "id": "fz-45",
+    "publish_at": "2026-12-07T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Soalang malang: lagu mende hok mung ulang-ulang dengar minggu ning? 🎧\n\nKite nok cari lagu baru."
+  },
+  {
+    "id": "fz-46",
+    "publish_at": "2026-12-08T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Selamak pagi Selasa ☀️\n\nSarapang pagi ning: nasi dagang, roti canai, ke 'kopi je cukup'? 😂"
+  },
+  {
+    "id": "fz-47",
+    "publish_at": "2026-12-08T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-47.jpg"
+    ],
+    "caption": "Baju asas hok semue orang patut ade:\n\n✔ Tshirt hitang\n✔ Tshirt putih\n✔ Satu kemeje atau overshirt\n✔ Seluar hok buleh pakai santai dan kemas\n\nNgan 4 bende ning je, mung buleh pakai macang-macang gaye.",
+    "card": {
+      "kind": "check",
+      "kicker": "ESSENTIALS",
+      "title": "Baju asas semue orang patut ade",
+      "items": [
+        "Tshirt hitang",
+        "Tshirt putih",
+        "Kemeje atau overshirt",
+        "Seluar santai + kemas"
+      ]
+    }
+  },
+  {
+    "id": "fz-48",
+    "publish_at": "2026-12-08T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Kalu buleh makang satu je makangang Ganu seumur hidup, mung pileh mende?\n\nNasi dagang, keropok lekor, laksam, ke satar? Susoh ning 😩"
+  },
+  {
+    "id": "fz-49",
+    "publish_at": "2026-12-08T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-49.jpg"
+    ],
+    "caption": "Kite perasang satu bende: orang skang dok cari baju banyok. Orang cari baju hok betul.\n\nKurang beli, tapi beli hok molek. Mung setuju?",
+    "card": {
+      "kind": "quote",
+      "kicker": "CARE KITE",
+      "title": "Kurang beli. Tapi beli hok molek."
+    }
+  },
+  {
+    "id": "fz-50",
+    "publish_at": "2026-12-08T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning sape hok tengah lapor? 😂\n\nMende hok mung teringak nok make skang?"
+  },
+  {
+    "id": "fz-51",
+    "publish_at": "2026-12-09T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Rabu pagi. Separuh minggu doh. Cuti Jumaat dok jauh doh 😌"
+  },
+  {
+    "id": "fz-52",
+    "publish_at": "2026-12-09T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-52.jpg"
+    ],
+    "caption": "Warna kedue untuk FARZ. Selain hitang ngan putih, mung nok mende?\n\nKomen. Kite kira.",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Warna kedue mung pileh?",
+      "items": [
+        "Navy",
+        "Olive",
+        "Krim",
+        "Maroon"
+      ]
+    }
+  },
+  {
+    "id": "fz-53",
+    "publish_at": "2026-12-09T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Gaji pertame mung dulu, mende hok mung beli dulu?\n\nJujur. Ade hok beli kasut, lepah tu makang megi seminggu 😂"
+  },
+  {
+    "id": "fz-54",
+    "publish_at": "2026-12-09T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-54.jpg"
+    ],
+    "caption": "3 silap orang sokmo wak bile beli baju online:\n\n1. Dok tengok size chart\n2. Percaya gambar model bulat-bulat\n3. Dok baca review betul-betul\n\nMung pernah kene? Cerite sikit.",
+    "card": {
+      "kind": "list",
+      "kicker": "PENGALAMANG",
+      "title": "3 silap beli baju online",
+      "items": [
+        "Dok tengok size chart",
+        "Percaya gambar model 100%",
+        "Dok baca review betul-betul"
+      ]
+    }
+  },
+  {
+    "id": "fz-55",
+    "publish_at": "2026-12-09T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Tido pakai kipah ke aircond?\n\nMusim hujang ning, kipah pung doh sejuk gok 🥶"
+  },
+  {
+    "id": "fz-56",
+    "publish_at": "2026-12-10T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Khamis pagi. Esok cuti orang Ganu 🙌\n\nPlan hujung minggu doh ade ke blum?"
+  },
+  {
+    "id": "fz-57",
+    "publish_at": "2026-12-10T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-57.jpg"
+    ],
+    "caption": "Kite tengah siapkang. Pelan-pelan, tapi pasti.\n\nHok follow awal, mung orang pertame tau. Komen 'NOK' kalu nok kite kabo dulu bile first drop keluar 👇",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Pelan-pelan.\nTapi pasti.",
+      "sub": "FARZ®  ·  First drop"
+    }
+  },
+  {
+    "id": "fz-58",
+    "publish_at": "2026-12-10T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Motor ke kereta untuk jalang-jalang kak Ganu?\n\nHok naik motor, musim hujang ning baju hujang jange lupe 😂"
+  },
+  {
+    "id": "fz-59",
+    "publish_at": "2026-12-10T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-59.jpg"
+    ],
+    "caption": "Baju hok mung pakai mase lepak ngan kawang, mase jumpe client, mase balik kampung. Kalu satu baju buleh ikut semue tempak tu, tu baju hok betul.\n\nTu hok FARZ nok buwak.",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Satu baju. Ikut mung gi mane-mane."
+    }
+  },
+  {
+    "id": "fz-60",
+    "publish_at": "2026-12-10T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Jumaat 🤍\n\nJange lupe Kahfi. Esok cuti, tido awal sikit, bangun awal gi sarapang."
+  },
+  {
+    "id": "fz-61",
+    "publish_at": "2026-12-11T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Jumaat, cuti 🙌\n\nPagi ning mung kak mane? Kedai kopi, pasar, ke atah katil lagi? 😂"
+  },
+  {
+    "id": "fz-62",
+    "publish_at": "2026-12-11T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-62.jpg"
+    ],
+    "caption": "Cara lipat tshirt supaye dok berkedut:\n\n1. Bentang, muke depang ke baroh\n2. Lipat lengang ke tengah\n3. Lipat dua dari baroh\n4. Gulung, jange tindih berat-berat\n\nBaju kemas, almari pung kemas.",
+    "card": {
+      "kind": "steps",
+      "kicker": "TIPS",
+      "title": "Lipat tshirt, dok berkedut",
+      "items": [
+        "Bentang, depang ke baroh",
+        "Lipat lengang ke tengah",
+        "Lipat dua dari baroh",
+        "Gulung, jange tindih berat"
+      ]
+    }
+  },
+  {
+    "id": "fz-63",
+    "publish_at": "2026-12-11T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Petang Jumaat. Make mende petang ning? Laksam, satar, ke keropok lekor panah-panah? 😋"
+  },
+  {
+    "id": "fz-64",
+    "publish_at": "2026-12-11T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-64.jpg"
+    ],
+    "caption": "Esok 12.12. Mung jenis hok check out banyok, ke jenis hok masuk troli je lepah tu tido? 😂",
+    "card": {
+      "kind": "poll",
+      "kicker": "12.12",
+      "title": "12.12 mung jenis mane?",
+      "items": [
+        "Check out semue",
+        "Masuk troli je",
+        "Dok bukak app langsung"
+      ]
+    }
+  },
+  {
+    "id": "fz-65",
+    "publish_at": "2026-12-11T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning sape hok tunggu tengah malang nok rebut baucer 12.12? 😂\n\nKalu dapak, kabo kite."
+  },
+  {
+    "id": "fz-66",
+    "publish_at": "2026-12-12T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "12.12 doh mari. Dompet mung selamak ke? 😂\n\nSelamak pagi Sabtu ☀️"
+  },
+  {
+    "id": "fz-67",
+    "publish_at": "2026-12-12T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-67.jpg"
+    ],
+    "caption": "Sale banyok, tapi beli ikut kepala, bukang ikut nafsu 😂\n\nTips kite: kalu mung dok pasti akan pakai 10 kali, jange beli. Walaupun murah.",
+    "card": {
+      "kind": "quote",
+      "kicker": "TIPS 12.12",
+      "title": "Kalu dok pasti pakai 10 kali, jange beli. Walaupun murah."
+    }
+  },
+  {
+    "id": "fz-68",
+    "publish_at": "2026-12-12T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Petang Sabtu. Hok gi Batu Buruk, ombak kuat dok? Musim ning jange mandi laut ye 🌊"
+  },
+  {
+    "id": "fz-69",
+    "publish_at": "2026-12-12T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-69.jpg"
+    ],
+    "caption": "3 bende hok kite dok nok buwak kak FARZ:\n\n1. Saiz hok tipu\n2. Kaing nipih hok jadi jaring lepah 5 kali basuh\n3. Design hok mung malu nok pakai setahun lepah tu\n\nMung ade nok tamboh?",
+    "card": {
+      "kind": "list",
+      "kicker": "HOK KITE ELAK",
+      "title": "3 bende hok kite dok nok buwak",
+      "items": [
+        "Saiz hok tipu",
+        "Kaing jadi jaring lepah 5 basuh",
+        "Design hok mung malu setahun lepah"
+      ]
+    }
+  },
+  {
+    "id": "fz-70",
+    "publish_at": "2026-12-12T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Sabtu. Mung beli mende 12.12 tadi? Tunjuk sikit 👀"
+  },
+  {
+    "id": "fz-71",
+    "publish_at": "2026-12-13T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Ahad, kerje balik. Semangat geng 💪\n\nSatu emoji untuk perasaang mung pagi ning."
+  },
+  {
+    "id": "fz-72",
+    "publish_at": "2026-12-13T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-72.jpg"
+    ],
+    "caption": "Orang tanye FARZ ning untuk sape. Jawapang: untuk orang biase hok nok nampak kemas tanpa susoh-susoh.\n\nPekerje, budok U, ayah muda, sape-sape gok.",
+    "card": {
+      "kind": "statement",
+      "kicker": "FARZ®",
+      "title": "Untuk orang\nbiase hok nok\nnampak kemas.",
+      "sub": "Everyday essentials."
+    }
+  },
+  {
+    "id": "fz-73",
+    "publish_at": "2026-12-13T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Mung jenis hok baca semue mesej group WhatsApp keluarge, ke 'mute' je? 😂"
+  },
+  {
+    "id": "fz-74",
+    "publish_at": "2026-12-13T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-74.jpg"
+    ],
+    "caption": "Tshirt mung suke kaing tebal ke nipih?\n\nTebal nampak mahal, nipih sejuk. Mung team mane?",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Kaing tshirt mung suke?",
+      "items": [
+        "Tebal",
+        "Sederhana",
+        "Nipih"
+      ]
+    }
+  },
+  {
+    "id": "fz-75",
+    "publish_at": "2026-12-13T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning, hok kerje syif malang, kite doakan mung kuat 🤲"
+  },
+  {
+    "id": "fz-76",
+    "publish_at": "2026-12-14T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Isnin pagi. Kak Ganu ke negeri lain, Isnin tetap Isnin. Hari ning semue orang same-same penat 😂"
+  },
+  {
+    "id": "fz-77",
+    "publish_at": "2026-12-14T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-77.jpg"
+    ],
+    "caption": "Nok nampak kemas tanpa susoh, cube ning:\n\n✔ Tshirt saiz betul, dok terlalu longgor\n✔ Seluar paras buku lali\n✔ Kasut bersih\n✔ Warna dok lebih 3\n\nSimple, tapi orang perasang.",
+    "card": {
+      "kind": "check",
+      "kicker": "GAYE",
+      "title": "Nampak kemas tanpa susoh",
+      "items": [
+        "Tshirt saiz betul",
+        "Seluar paras buku lali",
+        "Kasut bersih",
+        "Warna dok lebih 3"
+      ]
+    }
+  },
+  {
+    "id": "fz-78",
+    "publish_at": "2026-12-14T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Mung perasang dok Disember ning laju gile? Sekejap je doh 14 hari bulang 😳"
+  },
+  {
+    "id": "fz-79",
+    "publish_at": "2026-12-14T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-79.jpg"
+    ],
+    "caption": "Kite dok nok mung beli sebab kite brand tempatan. Kite nok mung beli sebab baju tu memang molek.\n\nBrand tempatan kene lawan ngan kualiti, bukang ngan simpati.",
+    "card": {
+      "kind": "quote",
+      "kicker": "PEGANG KITE",
+      "title": "Brand tempatan kene lawan ngan kualiti, bukang simpati."
+    }
+  },
+  {
+    "id": "fz-80",
+    "publish_at": "2026-12-14T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Soalang ringang malang ning: mung tido sebeloh kiri ke kanang katil? 😂"
+  },
+  {
+    "id": "fz-81",
+    "publish_at": "2026-12-15T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Selasa pagi. Hujang lagi? Jalang licin, bawok pelan-pelan ye 🚗"
+  },
+  {
+    "id": "fz-82",
+    "publish_at": "2026-12-15T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-82.jpg"
+    ],
+    "caption": "Satu seluar hitang, 3 gaye:\n\n1. Ngan tshirt putih, lepak santai\n2. Ngan kemeje, gi kerje\n3. Ngan hoodie, malang sejuk\n\nBaju asas tu la hok paling banyok buwak kerje.",
+    "card": {
+      "kind": "steps",
+      "kicker": "1 SELUAR, 3 GAYE",
+      "title": "Satu seluar hitang, 3 gaye",
+      "items": [
+        "+ Tshirt putih: lepak",
+        "+ Kemeje: gi kerje",
+        "+ Hoodie: malang sejuk"
+      ]
+    }
+  },
+  {
+    "id": "fz-83",
+    "publish_at": "2026-12-15T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Kalu buleh pindoh duduk kak mane-mane kak Ganu, mung pileh mane?\n\nKuala Terengganu, Kemaman, Dungun, Besut, ke Marang?"
+  },
+  {
+    "id": "fz-84",
+    "publish_at": "2026-12-15T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-84.jpg"
+    ],
+    "caption": "Design kak depang ke kak belakang baju?\n\nAde orang suke depang simple, design besor kak belakang. Mung?",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Design kak mane?",
+      "items": [
+        "Depang",
+        "Belakang",
+        "Dua-dua"
+      ]
+    }
+  },
+  {
+    "id": "fz-85",
+    "publish_at": "2026-12-15T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning, mende hok buwak mung senyung hari ning? Kongsi sikit 🤍"
+  },
+  {
+    "id": "fz-86",
+    "publish_at": "2026-12-16T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Rabu. Hok tengah tunggu gaji, sabar sikit lagi 😂"
+  },
+  {
+    "id": "fz-87",
+    "publish_at": "2026-12-16T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-87.jpg"
+    ],
+    "caption": "Bakpe tshirt plain ade hok RM15, ade hok RM80?\n\n1. Kaing: tebal nipih, jenis kapah\n2. Jahitang: kemas ke dok\n3. Cutting: ikut badang ke dok\n\nDok semue hok mahal tu molek. Tapi hok murah sangat, ade sebab die murah.",
+    "card": {
+      "kind": "list",
+      "kicker": "CAKAP BETUL",
+      "title": "Bakpe harge tshirt plain beze-beze?",
+      "items": [
+        "Kaing: tebal, nipih, jenis kapah",
+        "Jahitang: kemas ke dok",
+        "Cutting: ikut badang ke dok"
+      ]
+    }
+  },
+  {
+    "id": "fz-88",
+    "publish_at": "2026-12-16T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Sape orang Ganu tapi blum pernah sampai Pulau Redang lagi? Angkat tangan 🙋"
+  },
+  {
+    "id": "fz-89",
+    "publish_at": "2026-12-16T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-89.jpg"
+    ],
+    "caption": "Baju molek dok semestinya mahal. Tapi baju molek memang dok murah sangat.\n\nBagi mung, berape harge tshirt hok mung rase berbaloi?",
+    "card": {
+      "kind": "quote",
+      "kicker": "PENDAPAK KITE",
+      "title": "Molek dok semestinya mahal."
+    }
+  },
+  {
+    "id": "fz-90",
+    "publish_at": "2026-12-16T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang hujang, sejuk, selimut tebal. Mende lagi hok kurang? 😴"
+  },
+  {
+    "id": "fz-91",
+    "publish_at": "2026-12-17T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Khamis! Esok cuti 🙌 Semangat hari terakhir minggu ning."
+  },
+  {
+    "id": "fz-92",
+    "publish_at": "2026-12-17T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-92.jpg"
+    ],
+    "caption": "Kite dok lupe mung hok tunggu. Sikit mase lagi.\n\nTekan notification 🔔, follow kalu blum.",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Sikit mase\nlagi.",
+      "sub": "FARZ®  ·  First drop"
+    }
+  },
+  {
+    "id": "fz-93",
+    "publish_at": "2026-12-17T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Mende kerje pertame mung dulu? Kite nok tau sape hok mule dari baroh 😂"
+  },
+  {
+    "id": "fz-94",
+    "publish_at": "2026-12-17T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-94.jpg"
+    ],
+    "caption": "Tande baju mung patut lepah (atau sedekah):\n\n1. Leher doh macang mulut ikang\n2. Warna doh pudar sampai dok kenal\n3. Doh setahun dok pakai langsung\n\nAlmari mung ade berape helai? 😂",
+    "card": {
+      "kind": "list",
+      "kicker": "KEMAS ALMARI",
+      "title": "Tande baju patut lepah",
+      "items": [
+        "Leher doh macang mulut ikang",
+        "Warna pudar sampai dok kenal",
+        "Setahun dok pakai langsung"
+      ]
+    }
+  },
+  {
+    "id": "fz-95",
+    "publish_at": "2026-12-17T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Jumaat 🤍 Kahfi, selawat, tido awal. Esok cuti, jange lupe sarapang ngan keluarge."
+  },
+  {
+    "id": "fz-96",
+    "publish_at": "2026-12-18T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Jumaat cuti 🙌 Pagi ning ngan keluarge ke ngan bantal? 😂"
+  },
+  {
+    "id": "fz-97",
+    "publish_at": "2026-12-18T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-97.jpg"
+    ],
+    "caption": "Built for comfort. Designed to move.\n\nAyat ning bukang untuk lawa kak bio je. Tu sebab kite wujud: baju hok selesa, dan ikut mung bergerak.",
+    "card": {
+      "kind": "statement",
+      "kicker": "FARZ®",
+      "title": "Built for\ncomfort.\nDesigned to\nmove.",
+      "sub": "Everyday essentials."
+    }
+  },
+  {
+    "id": "fz-98",
+    "publish_at": "2026-12-18T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Petang Jumaat. Hok gi semayang Jumaat tadi, pakai baju Melayu warna mende? 😄"
+  },
+  {
+    "id": "fz-99",
+    "publish_at": "2026-12-18T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-99.jpg"
+    ],
+    "caption": "Mung sokmo beli baju kak mane?\n\nKite nok tau mung lebih suke beli kak mane.",
+    "card": {
+      "kind": "poll",
+      "kicker": "SOALANG",
+      "title": "Mung sokmo beli baju kak mane?",
+      "items": [
+        "Shopee / TikTok",
+        "Instagram / Threads",
+        "Kedai fizikal",
+        "Website brand"
+      ]
+    }
+  },
+  {
+    "id": "fz-100",
+    "publish_at": "2026-12-18T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Sabtu. Sape hok tengah ngantuk tapi dok mahu tido sebab esok cuti lagi? 😂"
+  },
+  {
+    "id": "fz-101",
+    "publish_at": "2026-12-19T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Sabtu pagi. Sape gi pasar? Pasar Payang ke pasar pagi dekak rumoh?"
+  },
+  {
+    "id": "fz-102",
+    "publish_at": "2026-12-19T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-102.jpg"
+    ],
+    "caption": "Orang Ganu ade satu perkataang: 'sokmo'. Maksudnye selalu.\n\nTu cita-cita kite: jadi baju hok mung pakai sokmo.",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Baju hok mung pakai sokmo."
+    }
+  },
+  {
+    "id": "fz-103",
+    "publish_at": "2026-12-19T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Anok-anok doh cuti sekolah ke blum? Rumoh doh jadi padang bola ke? 😂"
+  },
+  {
+    "id": "fz-104",
+    "publish_at": "2026-12-19T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-104.jpg"
+    ],
+    "caption": "Tips jemur baju musim hujang:\n\n1. Jemur dalang rumoh, tempak ade angin\n2. Pasang kipah\n3. Jange sangkut rapak-rapak\n4. Hok tebal, jemur dulu\n\nBaju dok bau hapak, mung pung dok malu 😂",
+    "card": {
+      "kind": "steps",
+      "kicker": "TIPS TENGKUJUH",
+      "title": "Jemur baju musim hujang",
+      "items": [
+        "Dalang rumoh, ade angin",
+        "Pasang kipah",
+        "Jange sangkut rapak",
+        "Hok tebal jemur dulu"
+      ]
+    }
+  },
+  {
+    "id": "fz-105",
+    "publish_at": "2026-12-19T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Sabtu. Satu perkataang untuk minggu ning? 👇"
+  },
+  {
+    "id": "fz-106",
+    "publish_at": "2026-12-20T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Ahad, kerje balik. Kopi doh, semangat blum 😂"
+  },
+  {
+    "id": "fz-107",
+    "publish_at": "2026-12-20T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-107.jpg"
+    ],
+    "caption": "3 sebab kite mule FARZ:\n\n1. Penat beli baju hok cepak rosok\n2. Nok baju hok selesa untuk cuace kite\n3. Percaya brand tempatan buleh setanding\n\nSenang. Tapi kite serius.",
+    "card": {
+      "kind": "list",
+      "kicker": "CERITE KITE",
+      "title": "3 sebab kite mule FARZ",
+      "items": [
+        "Penat baju cepak rosok",
+        "Selesa untuk cuace kite",
+        "Tempatan buleh setanding"
+      ]
+    }
+  },
+  {
+    "id": "fz-108",
+    "publish_at": "2026-12-20T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Kalu buleh balik ke umur 18, satu nasihak mende mung nok bagi kak diri sendiri?"
+  },
+  {
+    "id": "fz-109",
+    "publish_at": "2026-12-20T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-109.jpg"
+    ],
+    "caption": "Hoodie zip ke hoodie biase?\n\nNi debat hok dok pernah habih.",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Hoodie zip ke biase?",
+      "items": [
+        "Zip",
+        "Biase (pullover)",
+        "Dok pakai hoodie, panah"
+      ]
+    }
+  },
+  {
+    "id": "fz-110",
+    "publish_at": "2026-12-20T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning, sape hok masih kerje? Kite temang mung 🤝"
+  },
+  {
+    "id": "fz-111",
+    "publish_at": "2026-12-21T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Isnin. Tinggal 10 hari je lagi 2026. Laju sangat 😳"
+  },
+  {
+    "id": "fz-112",
+    "publish_at": "2026-12-21T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-112.jpg"
+    ],
+    "caption": "Sebelum beli baju baru, tanye diri:\n\n✔ Aku doh ade hok same ke dok?\n✔ Aku akan pakai 10 kali?\n✔ Buleh combo ngan baju hok ade?\n✔ Kaing selesa untuk cuace kite?\n\n4 'ye', baru beli.",
+    "card": {
+      "kind": "check",
+      "kicker": "BELI BIJAK",
+      "title": "Tanye diri sebelum beli",
+      "items": [
+        "Doh ade hok same?",
+        "Akan pakai 10 kali?",
+        "Buleh combo ngan hok ade?",
+        "Selesa cuace kite?"
+      ]
+    }
+  },
+  {
+    "id": "fz-113",
+    "publish_at": "2026-12-21T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Mi segera perisa mende hok paling sedak? Ni soalang penting 😂"
+  },
+  {
+    "id": "fz-114",
+    "publish_at": "2026-12-21T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-114.jpg"
+    ],
+    "caption": "Kite dok nok jadi besor cepak. Kite nok jadi besor betul.\n\nTerime kasih hok sabar ngan kite dari awal 🤝",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Dok nok besor cepak. Nok besor betul."
+    }
+  },
+  {
+    "id": "fz-115",
+    "publish_at": "2026-12-21T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning, mende hok mung bersyukur hari ning? Satu bende pung cukup 🤍"
+  },
+  {
+    "id": "fz-116",
+    "publish_at": "2026-12-22T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Selasa pagi. Hujang lagi ke kak tempak mung? Kalu kawasang mung naik air, jage diri molek-molek 🤲"
+  },
+  {
+    "id": "fz-117",
+    "publish_at": "2026-12-22T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-117.jpg"
+    ],
+    "caption": "Kalu FARZ buwak cap, mung nok?\n\nKite tengah dengar idea. Komen.",
+    "card": {
+      "kind": "poll",
+      "kicker": "IDEA",
+      "title": "Kalu FARZ buwak cap?",
+      "items": [
+        "Nok!",
+        "Tshirt dulu",
+        "Hoodie dulu"
+      ]
+    }
+  },
+  {
+    "id": "fz-118",
+    "publish_at": "2026-12-22T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Resolusi 2026 mung, berape hok jadi? 😂\n\nJujur gok. Takdok sape judge."
+  },
+  {
+    "id": "fz-119",
+    "publish_at": "2026-12-22T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-119.jpg"
+    ],
+    "caption": "Supaye baju putih kekal putih:\n\n1. Basuh asing, jange campur warna\n2. Rendam sekejap ngan sabung basuh\n3. Jange jemur bawoh matahari terik terlalu lame\n\nTshirt putih memang ujian kesabarang 😂",
+    "card": {
+      "kind": "list",
+      "kicker": "TIPS",
+      "title": "Supaye baju putih kekal putih",
+      "items": [
+        "Basuh asing",
+        "Rendam sekejap",
+        "Jange jemur terik terlalu lame"
+      ]
+    }
+  },
+  {
+    "id": "fz-120",
+    "publish_at": "2026-12-22T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning sape tengok bola? Team mane? ⚽"
+  },
+  {
+    "id": "fz-121",
+    "publish_at": "2026-12-23T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Rabu pagi. Seminggu lagi hujung tahung. Plan cuti doh ade?"
+  },
+  {
+    "id": "fz-122",
+    "publish_at": "2026-12-23T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-122.jpg"
+    ],
+    "caption": "Kite tengah siapkang sesuatu. Hok follow awal, mung tau dulu.\n\nKomen 'NOK' kalu nok kite kabo bile keluar 👇",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Sesuatu\ntengah\ndisiapkang.",
+      "sub": "FARZ®  ·  First drop"
+    }
+  },
+  {
+    "id": "fz-123",
+    "publish_at": "2026-12-23T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Kopi pagi ning hok ke berape doh? ☕\n\nBlum pukul 3, doh 2 cawang 😂"
+  },
+  {
+    "id": "fz-124",
+    "publish_at": "2026-12-23T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-124.jpg"
+    ],
+    "caption": "Baju hok mung paling sayang biasenye bukang hok paling mahal. Tapi hok paling selesa.\n\nBetul dok?",
+    "card": {
+      "kind": "quote",
+      "kicker": "BETUL DOK?",
+      "title": "Baju paling sayang biasenye hok paling selesa."
+    }
+  },
+  {
+    "id": "fz-125",
+    "publish_at": "2026-12-23T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning: mende hok mung nok tinggal kak 2026, dan mende hok mung nok bawok ke 2027?"
+  },
+  {
+    "id": "fz-126",
+    "publish_at": "2026-12-24T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Khamis. Esok cuti, hujung minggu doh mari 🙌"
+  },
+  {
+    "id": "fz-127",
+    "publish_at": "2026-12-24T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-127.jpg"
+    ],
+    "caption": "Capsule wardrobe untuk orang sibuk, 5 helai je:\n\n1. Tshirt hitang\n2. Tshirt putih\n3. Overshirt\n4. Seluar hitang\n5. Jeans\n\nCampur-campur, doh dapak 10 lebih gaye.",
+    "card": {
+      "kind": "list",
+      "kicker": "CAPSULE WARDROBE",
+      "title": "5 helai, 10 gaye",
+      "items": [
+        "Tshirt hitang",
+        "Tshirt putih",
+        "Overshirt",
+        "Seluar hitang",
+        "Jeans"
+      ]
+    }
+  },
+  {
+    "id": "fz-128",
+    "publish_at": "2026-12-24T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Bende kecik mende hok buwak mung happy minggu ning? Kongsi, kite nok rase gok 🤍"
+  },
+  {
+    "id": "fz-129",
+    "publish_at": "2026-12-24T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-129.jpg"
+    ],
+    "caption": "Mung pakai baju warna gelap ke cerah?",
+    "card": {
+      "kind": "poll",
+      "kicker": "MUNG PILEH",
+      "title": "Mung team mane?",
+      "items": [
+        "Gelap sokmo",
+        "Cerah sokmo",
+        "Ikut mood"
+      ]
+    }
+  },
+  {
+    "id": "fz-130",
+    "publish_at": "2026-12-24T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Jumaat 🤍 Kahfi, selawat. Selamak cuti hujung minggu semue."
+  },
+  {
+    "id": "fz-131",
+    "publish_at": "2026-12-25T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Jumaat cuti. Selamat Hari Krismas kawang-kawang hok menyambut 🎄🤝\n\nHok lain, plan mende hari ning?"
+  },
+  {
+    "id": "fz-132",
+    "publish_at": "2026-12-25T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-132.jpg"
+    ],
+    "caption": "FARZ masih kecik. Follower pung masih buleh kira. Tapi kite serius nok buwak baju hok molek.\n\nTerime kasih sebab ade kak sini dari awal 🤝",
+    "card": {
+      "kind": "statement",
+      "kicker": "FARZ®",
+      "title": "Kecik lagi.\nTapi kite\nserius.",
+      "sub": "Terime kasih hok follow awal."
+    }
+  },
+  {
+    "id": "fz-133",
+    "publish_at": "2026-12-25T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Petang Jumaat. Hok balik kampung, jalang sesak dok? 🚗"
+  },
+  {
+    "id": "fz-134",
+    "publish_at": "2026-12-25T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-134.jpg"
+    ],
+    "caption": "Hok penting bukang berape banyok baju dalang almari. Hok penting, berape banyok hok mung betul-betul pakai.",
+    "card": {
+      "kind": "quote",
+      "kicker": "RENUNG",
+      "title": "Bukang berape banyok. Berape hok mung betul-betul pakai."
+    }
+  },
+  {
+    "id": "fz-135",
+    "publish_at": "2026-12-25T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Sabtu. Tengok cerite mende malang ning? Bagi cadangang 🍿"
+  },
+  {
+    "id": "fz-136",
+    "publish_at": "2026-12-26T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Sabtu pagi. Hari ning nok gi mane? Pantai, kedai kopi, ke kemas rumoh? 😂"
+  },
+  {
+    "id": "fz-137",
+    "publish_at": "2026-12-26T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-137.jpg"
+    ],
+    "caption": "Checklist kemas almari hujung tahung:\n\n✔ Keluarkang semue\n✔ Asingkang: pakai, sedekah, buang\n✔ Lipat ikut jenis\n✔ Tengok mende hok betul-betul kurang\n\nBaru tau mende patut beli 2027.",
+    "card": {
+      "kind": "check",
+      "kicker": "HUJUNG TAHUNG",
+      "title": "Kemas almari hujung tahung",
+      "items": [
+        "Keluarkang semue",
+        "Asing: pakai, sedekah, buang",
+        "Lipat ikut jenis",
+        "Tengok mende hok kurang"
+      ]
+    }
+  },
+  {
+    "id": "fz-138",
+    "publish_at": "2026-12-26T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Kalu mung dapak cuti seminggu free, mung gi mane? Redang, Kenyir, ke Bangkok? 😂"
+  },
+  {
+    "id": "fz-139",
+    "publish_at": "2026-12-26T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-139.jpg"
+    ],
+    "caption": "Ok final: tshirt FARZ pertame mung nok warna mende?\n\nUndi lagi sekali, kite nok tengok berubah dok.",
+    "card": {
+      "kind": "poll",
+      "kicker": "UNDI LAGI",
+      "title": "Tshirt pertame, warna mende?",
+      "items": [
+        "Hitang",
+        "Putih",
+        "Kelabu",
+        "Warna lain (komen)"
+      ]
+    }
+  },
+  {
+    "id": "fz-140",
+    "publish_at": "2026-12-26T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang Sabtu. Esok kerje. Ready ke dok? Satu emoji 👇"
+  },
+  {
+    "id": "fz-141",
+    "publish_at": "2026-12-27T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Ahad, minggu terakhir 2026. Habih molek-molek, geng 💪"
+  },
+  {
+    "id": "fz-142",
+    "publish_at": "2026-12-27T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-142.jpg"
+    ],
+    "caption": "3 bende kite belajar tahung ning:\n\n1. Buwak brand ning lambat, dan tu dok ape\n2. Dengar orang lebih penting dari cakap banyok\n3. Follower awal tu emas\n\nTerime kasih semue 🤝",
+    "card": {
+      "kind": "list",
+      "kicker": "2026",
+      "title": "3 bende kite belajar 2026",
+      "items": [
+        "Lambat pung dok ape",
+        "Dengar lebih dari cakap",
+        "Follower awal tu emas"
+      ]
+    }
+  },
+  {
+    "id": "fz-143",
+    "publish_at": "2026-12-27T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Lagu terakhir hok mung dengar sebelum tido semalang? 🎧"
+  },
+  {
+    "id": "fz-144",
+    "publish_at": "2026-12-27T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-144.jpg"
+    ],
+    "caption": "Hari biase la hok paling banyok dalang hidup kite. Jadi pakai la baju hok selesa untuk hari biase.",
+    "card": {
+      "kind": "quote",
+      "kicker": "FARZ®",
+      "title": "Pakai baju selesa untuk hari biase."
+    }
+  },
+  {
+    "id": "fz-145",
+    "publish_at": "2026-12-27T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Malang ning: satu perkataang untuk 2026 mung 👇"
+  },
+  {
+    "id": "fz-146",
+    "publish_at": "2026-12-28T07:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Isnin terakhir 2026. Semangat, sikit lagi 😂"
+  },
+  {
+    "id": "fz-147",
+    "publish_at": "2026-12-28T11:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-147.jpg"
+    ],
+    "caption": "Tahung baru, cerite baru. Kite dok sabar nok kongsi ngan mung.\n\nStay. Follow. Notification on 🔔",
+    "card": {
+      "kind": "teaser",
+      "kicker": "",
+      "title": "Tahung baru.\nCerite baru.",
+      "sub": "FARZ®  ·  Stay tuned"
+    }
+  },
+  {
+    "id": "fz-148",
+    "publish_at": "2026-12-28T15:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Resolusi 2027 mung satu je. Mende? Kite simpang, hujung tahung depang kite tanye balik 😂"
+  },
+  {
+    "id": "fz-149",
+    "publish_at": "2026-12-28T20:00:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [
+      "fz-149.jpg"
+    ],
+    "caption": "2027 mung nok FARZ keluarkang mende dulu?",
+    "card": {
+      "kind": "poll",
+      "kicker": "UNDI",
+      "title": "2027, FARZ keluar mende dulu?",
+      "items": [
+        "Tshirt",
+        "Hoodie",
+        "Seluar",
+        "Cap"
+      ]
+    }
+  },
+  {
+    "id": "fz-150",
+    "publish_at": "2026-12-28T22:30:00+08:00",
+    "platforms": [
+      "threads"
+    ],
+    "images": [],
+    "caption": "Terime kasih sebab teman kite sebulan ning 🤍 Esok kite borak lagi."
   }
 ]
