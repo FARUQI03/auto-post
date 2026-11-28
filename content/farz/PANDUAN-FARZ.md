@@ -6,11 +6,11 @@ Akaun @farzglobal guna sistem yang sama dengan akaun Threads lain, tapi fail dan
 
 | Fail | Fungsi |
 |---|---|
-| `content/farz/posts.json` | 21 post, 3 sehari (9:00 pagi, 2:00 petang, 9:00 malam), 29 Nov hingga 5 Dis |
-| `content/farz/images/` | 10 gambar kad FARZ (merah, hitam, putih) untuk post fz-02, 04, 06 ... 20 |
+| `content/farz/posts.json` | 35 post, 5 sehari (7:30 pg, 11:30 pg, 3:00 ptg, 8:00 mlm, 10:30 mlm), 29 Nov hingga 5 Dis, loghat Terengganu |
+| `content/farz/images/` | 16 gambar kad FARZ (merah, hitam, putih), selang-seli dengan post teks |
 | `content/farz/info.json` | Tempat isi info nanti (tarikh launch, link kedai) |
 
-Konten: bina hype sebelum first drop. Cerita brand, soalan pada follower (warna, saiz, fit), hot take pasal baju, santai hari-hari. Tiada hashtag. Tiada harga, bahan kain atau tarikh launch direka, sebab belum confirm.
+Konten: loghat Terengganu. Promote brand FARZ (cerita brand, tanya warna/saiz/fit, teaser first drop) campur post random untuk tarik perhatian (sarapang, keropok lekor, musim tengkujuh, cuti Jumaat orang Ganu, tempat lepak). Tiada hashtag. Tiada harga, bahan kain atau tarikh launch direka, sebab belum confirm.
 
 ## Langkah 1: Token Threads @farzglobal (10 minit)
 
